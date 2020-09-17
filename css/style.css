@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.burger-menu__nav {
+  display: none;
+}
+.page-header {
+  max-width: 100%;
+  background-color: #fff;
+  opacity: 0.9;
+  box-shadow: inset 0 0 6px;
+}
+.page-header__contacts {
+  margin-top: 7px;
+  background-color: rgb(254, 185, 19);
+  opacity: 0.9;
+  display: flex;
+}
+.contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 17px;
+  margin-right: 3px;
+}
+.page-header__navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.page-header__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: rgb(254, 185, 19);
+  opacity: 0.9;
+  padding-bottom: 25px;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bgc_cheese.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 762px;
+  max-width: 100%;
+}
+.background__logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 65px;
+}
+.background__text {
+  padding-top: 139px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 35px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+.background__description {
+  padding-top: 39px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 45px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+.about {
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+.about__me {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #41331a;
+}
+.about__description {
+  padding-top: 40px;
+  max-width: 760px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #41331a;
+}
+.container__cheese {
+  max-width: 1162px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.cheese {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  margin-left: 29px;
+}
+.cheese__img {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 360px;
+  height: 400px;
+}
+.cheese__name {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  color: #41331a;
+}
+.cheese__description {
+  width: 360px;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #41331a;
+}
+.form {
+  width: 50%;
+  margin: 50px auto;
+}
+.feedback__input {
+  color: #41331a;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #fff;
+  padding: 13px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  border-bottom: solid #41331a;
+  outline: none;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: vertical;
+  outline: none;
+}
+.button__submit {
+  float: left;
+  width: 100%;
+  border: 0px solid transparent;
+  cursor: pointer;
+  background-color: #41331a;
+  opacity: 0.9;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 300;
+}
+.button__submit:hover {
+  background-color: #fff;
+  color: #41331a;
+  border: 1px solid #41331a;
+}
+.ease {
+  width: 0;
+  height: 74px;
+  transition: 0.3s ease;
+}
+.map {
+  padding-top: 40px;
+}
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(254, 185, 19);
+  opacity: 0.9;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+}
+.footer__logo {
+  width: 190px;
+  height: 190px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.social {
+  padding-top: 75px;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 169px;
+}
+.social__square {
+  margin-right: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 47px;
+  height: 47px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.social__square:last-child {
+  margin-right: 40px;
+}
+.social__link {
+  display: flex;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+}
+@media (max-width: 1200px) {
+  .page-header__navigation {
+    width: 960px;
+  }
+  .cheese {
+    margin-left: 15px;
+  }
+  .cheese__img {
+    width: 300px;
+    height: 340px;
+  }
+  .cheese__name {
+    font-size: 20px;
+    line-height: 31px;
+    color: #41331a;
+  }
+  .cheese__description {
+    width: 300px;
+    font-size: 15px;
+    line-height: 100%;
+    color: #41331a;
+  }
+}
+@media (max-width: 995px) {
+  .burger-menu__button {
+    position: relative;
+    top: 42px;
+    left: 30px;
+    z-index: 30;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.4s;
+    background-color: #fff;
+  }
+  .burger-menu__lines,
+  .burger-menu__lines::after,
+  .burger-menu__lines::before {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(254, 185, 19);
+    opacity: 0.9;
+  }
+  .burger-menu__lines {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .burger-menu__lines::before {
+    content: "";
+    top: -8px;
+  }
+  .burger-menu__lines::after {
+    content: "";
+    top: 8px;
+  }
+  .burger-menu_active .burger-menu__button,
+  .burger-menu_active .burger-menu__lines {
+    background-color: transparent;
+  }
+  .burger-menu_active .burger-menu__lines::before {
+    top: 0;
+    transform: rotate(45deg);
+    background-color: transparent;
+  }
+  .burger-menu_active .burger-menu__lines::after {
+    top: 0;
+    transform: rotate(-45deg);
+    background-color: transparent;
+  }
+  .burger-menu__nav {
+    padding-top: 35px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 70%;
+    background-color: rgb(254, 185, 19);
+    opacity: 0.9;
+    left: -100%;
+    transition: 0.5s;
+  }
+  .burger-menu_active .burger-menu__nav {
+    left: 0;
+  }
+  .burger-menu__link {
+    padding: 15px;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .burger-menu__link:hover {
+    filter: brightness(0.7);
+  }
+  .burger-menu__overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+  .burger-menu_active .burger-menu__overlay {
+    display: block;
+  }
+  .page-header__navigation {
+    height: 30px;
+  }
+  .page-header__link {
+    display: none;
+  }
+  .background__text {
+    padding-top: 60px;
+  }
+  .background__description {
+    padding-top: 40px;
+  }
+  .container__cheese {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    background-image: url(../img/cheese.jpg);
+  }
+  .cheese__header {
+    padding-top: 30px;
+  }
+  .cheese {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 0;
+    background-color: #fff;
+  }
+  .cheese__img {
+    margin-bottom: 10px;
+    margin-left: 7px;
+  }
+  .cheese__name {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .cheese__description {
+    width: 300px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 7px;
+  }
+}
+@media (max-width: 568px) {
+  .background {
+    height: 500px;
+    background-image: url(../img/bgc_cheese_mobile.jpg);
+    background-attachment: scroll;
+  }
+  .background__logo {
+    padding-top: 0;
+  }
+  .background__text {
+    padding-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #ffffff;
+  }
+  .background__description {
+    display: none;
+  }
+  .about {
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+  .about__me {
+    padding-top: 25px;
+    font-size: 25px;
+  }
+  .about__description {
+    padding-top: 25px;
+    max-width: 300px;
+    font-size: 20px;
+  }
+  .container__cheese {
+    padding-top: 0;
+  }
+  .cheese {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-left: 0;
+  }
+  .cheese__img {
+    margin-bottom: 10px;
+    width: 240px;
+    height: 280px;
+  }
+  .cheese__name {
+    font-size: 19px;
+    line-height: 31px;
+    color: #41331a;
+  }
+  .cheese__description {
+    width: 240px;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .page-footer {
+    justify-content: center;
+    height: 200px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .social__square:last-child {
+    margin-right: 0;
+  }
+}
