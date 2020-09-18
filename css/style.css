@@ -278,8 +278,8 @@ textarea {
     height: 340px;
     transition: none;
   }
-  .cheese-img:hover {
-    transform: scale(1.0);
+  .cheese__img:hover {
+    transform: none;
   }
   .cheese__name {
     font-size: 20px;
