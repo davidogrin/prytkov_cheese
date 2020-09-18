@@ -270,6 +270,9 @@ textarea {
     width: 300px;
     height: 340px;
   }
+  .cheese-img:hover {
+    transform: none;
+  }
   .cheese__name {
     font-size: 20px;
     line-height: 31px;
@@ -396,9 +399,6 @@ textarea {
     padding-bottom: 30px;
     margin-left: 0;
     background-color: #fff;
-  }
-  .cheese-img:hover {
-    transform: none;
   }
   .cheese__img {
     margin-bottom: 10px;
