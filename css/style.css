@@ -277,6 +277,7 @@ textarea {
     width: 300px;
     height: 340px;
     transition: none;
+    transform: none;
   }
   .cheese-img:hover {
     transform: none;
@@ -474,9 +475,6 @@ textarea {
     margin-bottom: 10px;
     width: 254px;
     height: 280px;
-  }
-  .cheese-img:hover {
-    transform: none;
   }
   .cheese__name {
     font-size: 19px;
