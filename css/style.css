@@ -463,6 +463,9 @@ textarea {
     width: 254px;
     height: 280px;
   }
+  .cheese-img:hover {
+    transform: none;
+  }
   .cheese__name {
     font-size: 19px;
     line-height: 31px;
