@@ -43,13 +43,19 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 15px;
   letter-spacing: 2px;
   text-decoration: none;
-  color: rgb(254, 185, 19);
+  color: #41331a;
   opacity: 0.9;
   padding-bottom: 25px;
+}
+.page-header__link:hover {
+  text-decoration: underline;
+  width: auto;
+  height: 3px;
+  color: #41331a;
 }
 .background {
   display: flex;
