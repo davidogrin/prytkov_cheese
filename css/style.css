@@ -274,11 +274,13 @@ textarea {
     margin-left: 15px;
   }
   .cheese__img {
+    display: block;
     width: 300px;
     height: 340px;
     transition: none;
   }
   .cheese__img:hover {
+    display: block;
     transform: none;
   }
   .cheese__name {
