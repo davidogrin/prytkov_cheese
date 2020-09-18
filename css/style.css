@@ -442,9 +442,10 @@ textarea {
   .about__me {
     padding-top: 25px;
     font-size: 25px;
+    padding-bottom: 10px;
   }
   .about__description {
-    padding-top: 25px;
+    padding-top: 20px;
     max-width: 300px;
     font-size: 20px;
   }
@@ -452,13 +453,12 @@ textarea {
     padding-top: 0;
   }
   .cheese {
-    padding-top: 10px;
     padding-bottom: 0;
     margin-left: 0;
   }
   .cheese__img {
     margin-bottom: 10px;
-    width: 240px;
+    width: 254px;
     height: 280px;
   }
   .cheese__name {
